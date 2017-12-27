@@ -1,0 +1,28 @@
+.footer {
+	height: 40px;
+}
+
+.contactList ul {
+	list-style-type: none;
+	display: flex;
+	text-align: center;
+}
+
+.navOptions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navOptions ul {
+	list-style-type: none;
+	display: flex;
+	text-align: center;
+}
+
+.navOptions li {
+	font-family: 'Lato', sans-serif;
+	font-size: 2 rem;
+	padding: 10px;
+	color: rgba(51, 51, 51, 0.2);
+}

@@ -1,0 +1,41 @@
+.body {
+	width: 100%;
+	margin-top: 80px;
+}
+
+.bodyContent {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.bodyImage {
+}
+
+.bodyImage img {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: 'FlipH';
+	width: 350px;
+	height: 550px;
+	object-fit: cover;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.bodyDescription {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bodyDescription p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 60px;
+}
