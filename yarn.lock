@@ -5181,6 +5181,16 @@ react-scripts@1.0.17:
   optionalDependencies:
     fsevents "1.1.2"
 
+react-typist-loop@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-typist-loop/-/react-typist-loop-0.0.3.tgz#029bb0a1cdf83a03399c0f45a6acd5a30c02334a"
+
+react-typist@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/react-typist/-/react-typist-2.0.4.tgz#e7ee4de53ead913d363d38f07b700c00ce271be0"
+  dependencies:
+    prop-types "^15.5.10"
+
 react@^16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Typist from 'react-typist'
+import TypistLoop from 'react-typist-loop'
 
 class Body extends Component {
 	render() {
@@ -15,6 +17,13 @@ class Body extends Component {
 						<p>
 							My name is Chy Meng. Front-end web developer based in Melbourne,
 							Australia.
+							<TypistLoop interval={1000}>
+								{['Hello World', 'Good Morning', 'Bye'].map(text => (
+									<Typist key={text} startDelay={500}>
+										{text}
+									</Typist>
+								))}
+							</TypistLoop>
 						</p>
 					</div>
 				</div>
