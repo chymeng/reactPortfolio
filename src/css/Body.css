@@ -36,15 +36,8 @@
 
 .bodyDescription p {
 	font-family: 'Lato', sans-serif;
-	font-weight: 600;
-	font-size: 60px;
-}
-
-.bodyQuotes {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Lato', sans-serif;
-	font-weight: 600;
-	font-size: 60px;
+	font-weight: 700;
+	font-size: 3.3rem;
+	line-height: 1.2;
+	letter-spacing: -1px;
 }

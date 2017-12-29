@@ -18,7 +18,7 @@ class Body extends Component {
 							My name is Chy Meng. Front-end web developer based in Melbourne,
 							Australia.
 							<TypistLoop interval={1000}>
-								{['Hello World', 'Good Morning', 'Bye'].map(text => (
+								{['I like to code', '', 'Bye'].map(text => (
 									<Typist key={text} startDelay={500}>
 										{text}
 									</Typist>
