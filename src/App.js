@@ -3,6 +3,9 @@ import '../src/css/App.css'
 import '../src/css/Header.css'
 import '../src/css/Body.css'
 import '../src/css/Footer.css'
+import '../src/css/About.css'
+import '../src/css/Contact.css'
+import '../src/css/Projects.css'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Body from './components/Body'
@@ -47,6 +50,7 @@ class App extends Component {
 							<Fragment>
 								<Header />
 								<Projects />
+								<Footer />
 							</Fragment>
 						)}
 					/>
@@ -58,6 +62,7 @@ class App extends Component {
 							<Fragment>
 								<Header />
 								<Contact />
+								<Footer />
 							</Fragment>
 						)}
 					/>
