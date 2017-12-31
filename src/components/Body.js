@@ -15,7 +15,7 @@ class Body extends Component {
 					</div>
 					<div className="bodyDescription">
 						<p>
-							My name is Chy Meng. Front-end web developer based in Melbourne,
+							My name is Chy. Front-end web developer based in Melbourne,
 							Australia.
 							<TypistLoop interval={1000}>
 								{['I like to code', '', 'Bye'].map(text => (

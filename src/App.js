@@ -13,9 +13,14 @@ import Footer from './components/Footer'
 import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import TransitionGroup from 'react-transition-group/TransitionGroup'
 
 class App extends Component {
 	render() {
+		const firstChild = props => {
+			const childrenArray = React.Children.toArray(props.children)
+			return childrenArray[0] || null
+		}
 		return (
 			<Router>
 				<div className="App">
