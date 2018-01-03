@@ -7,3 +7,32 @@
 	margin-bottom: 70px;
 	margin-left: 200px;
 }
+
+@media screen and (max-width: 480px) {
+	.projectsHeading {
+		font-size: 1.5rem;
+		margin: 0px;
+		padding-left: 20px;
+		padding-bottom: 0px;
+	}
+
+	.projectsHeading h1 {
+		margin-bottom: 10px;
+	}
+
+	.projectsList {
+		overflow: scroll;
+		height: 440px;
+	}
+
+	.projectsList ul {
+		list-style-type: none;
+		padding: 0px;
+	}
+
+	.projectsList img {
+		height: 100px;
+		width: 100%;
+		object-fit: cover;
+	}
+}
