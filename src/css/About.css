@@ -1,79 +1,93 @@
 .aboutHeading {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size: 2rem;
-	color: 3f3f3f;
-	margin-top: 150px;
-	margin-bottom: 70px;
-	margin-left: 200px;
+	font-size: 1rem;
+	margin: 0px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+}
+
+.aboutHeading h1 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.aboutImage {
+	text-align: center;
+}
+
+.aboutImage img {
+	width: 95%;
+	height: 220px;
+	object-fit: cover;
+	object-position: top;
+	margin-bottom: 10px;
 }
 
 .aboutContent {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	font-size: 1.2rem;
-	width: 60%;
-	margin: 0px auto;
+	font-size: 1rem;
+	width: 95%;
+	margin: 0 auto;
+	overflow: scroll;
+	height: 250px;
 }
 
-@media screen and (max-width: 736px) {
-	.aboutHeading {
-		font-size: 1.9rem;
-		margin: 0px;
-		padding-left: 20px;
-		padding-bottom: 0px;
-	}
-
-	.aboutHeading h1 {
-		margin-top: 32px;
-		margin-bottom: 10px;
-	}
-
-	.aboutImage {
-		text-align: center;
-	}
-
+@media screen and (min-width: 480px) {
 	.aboutImage img {
-		width: 95%;
-		height: 220px;
-		object-fit: cover;
-		object-position: top;
-		margin-bottom: 10px;
-	}
-
-	.aboutContent {
-		font-size: 1rem;
-		width: 90%;
+		height: 300px;
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 736px) {
+	.aboutImage img {
+		height: 300px;
+	}
+}
+
+@media screen and (min-width: 980px) {
 	.aboutHeading {
-		font-size: 1.5rem;
-		margin: 0px;
-		padding-left: 20px;
-		padding-bottom: 0px;
+		font-size: 1.2rem;
 	}
 
-	.aboutHeading h1 {
-		margin-top: 32px;
-		margin-bottom: 10px;
+	.aboutContainer {
+		overflow: auto;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
 	}
 
 	.aboutImage {
-		text-align: center;
+		width: 283px;
+		padding-left: 40px;
 	}
 
 	.aboutImage img {
-		width: 95%;
-		height: 150px;
+		height: 62vh;
+		width: 100%;
 		object-fit: cover;
-		object-position: top;
-		margin-bottom: 10px;
+		border-radius: 8px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
 	}
 
 	.aboutContent {
-		font-size: 1rem;
-		width: 90%;
+		padding-left: 20px;
+		width: 50%;
+	}
+
+	.aboutContent p {
+		font-size: 1.1rem;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.aboutImage {
+		padding-left: 50px;
+	}
+
+	.aboutContent p {
+		font-size: 1.2rem;
 	}
 }

@@ -4,23 +4,25 @@
 	width: 100%;
 }
 
-/* .footerContent {
+.contactList {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-} */
+}
 
 .contactList ul {
 	list-style-type: none;
+	padding-left: 0px;
 	display: flex;
-	text-align: center;
+	flex-wrap: wrap;
 }
 
 .contactList li {
+	display: inline-block;
 	font-family: 'Lato', sans-serif;
-	font-size: 2 rem;
-	padding: 15px;
-	color: rgba(51, 51, 51, 0.2);
+	font-size: 0.8rem;
+	padding: 10px;
+	text-align: center;
 }
 
 .contactList li a {
@@ -33,136 +35,51 @@
 }
 
 .githubIcon {
-	height: 25px;
-	width: 25px;
-	padding: 3px;
+	height: 35px;
+	width: auto;
+	padding: 5px;
 }
 
 .linkedInIcon {
-	height: 25px;
-	width: 25px;
-	padding: 3px;
+	height: 35px;
+	width: auto;
+	padding: 5px;
+}
+
+.handWaveIcon {
+	height: 35px;
+	width: auto;
+	padding: 5px;
 }
 
 .blogIcon {
 	height: 35px;
 	width: auto;
-	padding: 3px;
+	padding: 5px;
 }
 
-.handWaveIcon {
-	height: 25px;
-	width: 25px;
-	padding: 3px;
-}
-
-@media screen and (max-width: 480px) {
-	br {
-		display: initial;
-	}
-
-	.footer {
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-	}
-
-	.contactList {
-	}
-
-	.contactList ul {
-		display: flex;
-		flex-wrap: wrap;
-		padding-left: 0px;
-	}
-
-	.contactList li {
-		font-size: 0.8rem;
-		width: 25%;
-		padding: 0px;
-	}
-
-	.contactList li a {
-		text-decoration: none;
-		color: rgba(51, 51, 51, 0.2);
-	}
-
-	.contactList li a:hover {
-		text-decoration: line-through;
-	}
-
-	.githubIcon {
-		height: 35px;
-		width: auto;
-		padding: 3px;
-	}
-
-	.linkedInIcon {
-		height: 35px;
-		width: auto;
-		padding: 3px;
-	}
-
-	.handWaveIcon {
-		height: 35px;
-		width: auto;
-		padding: 3px;
-	}
-
-	.blogIcon {
-		height: 35px;
-		width: auto;
-		padding: 3px;
-	}
-}
-@media screen and (max-width: 736px) {
+@media screen and (min-width: 480px) {
 	br {
 		display: none;
 	}
 
-	.contactList ul {
-		display: flex;
-		flex-wrap: wrap;
-		padding-left: 0px;
-	}
-
 	.contactList li {
-		display: inline-block;
-		font-size: 0.8rem;
-		width: 25%;
-		padding: 0px;
-	}
-
-	.contactList li a {
-		text-decoration: none;
-		color: rgba(51, 51, 51, 0.2);
-	}
-
-	.contactList li a:hover {
-		text-decoration: line-through;
+		font-size: 1rem;
 	}
 
 	.githubIcon {
 		height: 40px;
-		width: auto;
-		padding: 3px;
 	}
 
 	.linkedInIcon {
 		height: 40px;
-		width: auto;
-		padding: 3px;
 	}
 
 	.handWaveIcon {
 		height: 40px;
-		width: auto;
-		padding: 3px;
 	}
 
 	.blogIcon {
 		height: 40px;
-		width: auto;
-		padding: 3px;
 	}
 }

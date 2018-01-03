@@ -7,10 +7,10 @@ class About extends Component {
 				<div className="aboutHeading">
 					<h1>About</h1>
 				</div>
-				<div className="aboutImage">
-					<img src="https://image.ibb.co/jMGi4w/image.jpg" />
-				</div>
-				<div className="aboutContainerContent">
+				<div class="aboutContainer">
+					<div className="aboutImage">
+						<img src="https://image.ibb.co/jMGi4w/image.jpg" />
+					</div>
 					<div className="aboutContent">
 						<p>
 							My name is Chy, former accountant looking to become a front-end
