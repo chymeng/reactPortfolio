@@ -15,3 +15,34 @@
 	width: 60%;
 	margin: 0px auto;
 }
+
+@media screen and (max-width: 480px) {
+	.aboutHeading {
+		font-size: 1.5rem;
+		margin: 0px;
+		padding-left: 20px;
+		padding-bottom: 0px;
+	}
+
+	.aboutHeading h1 {
+		margin-top: 32px;
+		margin-bottom: 10px;
+	}
+
+	.aboutImage {
+		text-align: center;
+	}
+
+	.aboutImage img {
+		width: 95%;
+		height: 150px;
+		object-fit: cover;
+		object-position: top;
+		margin-bottom: 10px;
+	}
+
+	.aboutContent {
+		font-size: 1rem;
+		width: 90%;
+	}
+}
