@@ -41,3 +41,34 @@
 	line-height: 1.2;
 	letter-spacing: -1px;
 }
+
+@media screen and (max-width: 480px) {
+	.body {
+		width: 90%;
+		margin-top: 0px;
+	}
+
+	.bodyContent {
+		grid-template-columns: 0% 100%;
+	}
+
+	.bodyDescription {
+		width: 90%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.bodyDescription p {
+		font-weight: 700;
+		font-size: 3rem;
+		line-height: 1.2;
+		letter-spacing: -1px;
+		margin-top: 0px;
+	}
+
+	.bodyImage {
+		display: none;
+	}
+}

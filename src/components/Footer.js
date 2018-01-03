@@ -10,11 +10,10 @@ class Footer extends Component {
 						<ul>
 							<li>
 								<a href="https://github.com/chymeng" target="_blank">
-									<FontAwesome
+									<img
+										src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png"
 										className="githubIcon"
-										name="github"
-										size="10x"
-										tag="i"
+										target="_blank"
 									/>
 									GitHub
 								</a>
@@ -24,11 +23,10 @@ class Footer extends Component {
 									href="https://www.linkedin.com/in/chy-meng-6323b8a7/"
 									target="_blank"
 								>
-									<FontAwesome
+									<img
+										src="https://media-exp2.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAANyAAAAJGRlZTNlZDQwLTk4YTItNDA1MS04MzBjLWJmNGQ5M2RmZGUxYw.png"
+										target="_blank"
 										className="linkedInIcon"
-										name="linkedin"
-										size="10x"
-										tag="i"
 									/>
 									LinkedIn
 								</a>
@@ -40,17 +38,18 @@ class Footer extends Component {
 										target="_blank"
 										className="handWaveIcon"
 									/>
+									<br />
 									Say hi
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<FontAwesome
+									<img
+										src="http://www.magiccityfamilylaw.com/wp-content/uploads/2017/06/Blog-2.png"
+										target="_blank"
 										className="blogIcon"
-										name="book"
-										size="10x"
-										tag="i"
-									/>Blog
+									/>{' '}
+									<br />Blog
 								</a>
 							</li>
 						</ul>
