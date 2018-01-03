@@ -41,9 +41,6 @@
 }
 
 @media screen and (min-width: 736px) {
-	.aboutImage img {
-		height: 300px;
-	}
 }
 
 @media screen and (min-width: 980px) {
@@ -52,7 +49,8 @@
 	}
 
 	.aboutContainer {
-		overflow: auto;
+		padding-top: 30px;
+		height: 62vh;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
@@ -60,12 +58,13 @@
 
 	.aboutImage {
 		width: 283px;
-		padding-left: 40px;
+		height: 100%;
+		padding-left: 80px;
 	}
 
 	.aboutImage img {
-		height: 62vh;
 		width: 100%;
+		height: 450px;
 		object-fit: cover;
 		border-radius: 8px;
 		margin-left: auto;
@@ -82,9 +81,10 @@
 		font-size: 1.1rem;
 	}
 }
+
 @media screen and (min-width: 1280px) {
 	.aboutImage {
-		padding-left: 50px;
+		padding-left: 100px;
 	}
 
 	.aboutContent p {
