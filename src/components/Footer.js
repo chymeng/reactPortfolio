@@ -15,6 +15,7 @@ class Footer extends Component {
 										className="githubIcon"
 										target="_blank"
 									/>
+									<br />
 									GitHub
 								</a>
 							</li>
@@ -28,6 +29,7 @@ class Footer extends Component {
 										target="_blank"
 										className="linkedInIcon"
 									/>
+									<br />
 									LinkedIn
 								</a>
 							</li>

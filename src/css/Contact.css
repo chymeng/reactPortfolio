@@ -7,3 +7,12 @@
 	margin-bottom: 70px;
 	margin-left: 200px;
 }
+
+@media screen and (max-width: 480px) {
+	.contactHeading {
+		font-size: 1.5rem;
+		margin: 0px;
+		padding-left: 20px;
+		padding-bottom: 0px;
+	}
+}
