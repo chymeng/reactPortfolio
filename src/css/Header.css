@@ -30,6 +30,27 @@
 	text-decoration: line-through;
 }
 
+@media screen and (max-width: 736px) {
+	.navOptions {
+		text-align: center;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.navOptions ul {
+		margin: 0;
+		padding-left: 0;
+	}
+
+	.navOptions li {
+		display: inline-block;
+		font-size: 1 rem;
+		padding: 8px;
+		padding-left: none;
+	}
+}
+
 @media screen and (max-width: 480px) {
 	.navOptions {
 		text-align: center;
