@@ -17,15 +17,28 @@
 	height: 500px;
 }
 
+.projectsList h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9rem;
+	text-align: center;
+	margin-top: 2px;
+	color: black;
+}
+
 .projectsList ul {
 	list-style-type: none;
 	padding: 0px;
+}
+
+.projectsList li a {
+	text-decoration: none;
 }
 
 .projectsList img {
 	height: 150px;
 	width: 100%;
 	object-fit: cover;
+	border-radius: 8px;
 }
 
 @media screen and (min-width: 480px) {
@@ -41,6 +54,10 @@
 
 	.projectsList img {
 		height: 180px;
+	}
+
+	.projectsList h2 {
+		font-size: 1rem;
 	}
 
 	.projectsList ul {
