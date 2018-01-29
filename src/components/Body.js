@@ -6,27 +6,28 @@ class Body extends Component {
   render() {
     return (
       <div className="body">
-        <div className="bodyContent">
-          <div className="bodyImage">
-            <img src="https://image.ibb.co/ehP126/image_2.jpg" alt="Me" />
-          </div>
-          <div className="bodyDescription">
-            <p>
-              My name is Chy. Front-end web developer based in Melbourne,
-              Australia.
-              <TypistLoop interval={1000}>
-                {[
-                  "I like to code!",
-                  "Sucker for romantic movies",
-                  "Love japanese food"
-                ].map(text => (
-                  <Typist key={text} startDelay={500}>
-                    {text}
-                  </Typist>
-                ))}
-              </TypistLoop>
-            </p>
-          </div>
+        <div className="bodyDescription">
+          <p>
+            My name is Chy. Junior Web Developer based in Melbourne, Australia.
+            <TypistLoop interval={1000}>
+              {[
+                "I like to code!",
+                "Love playing sports",
+                "Love japanese food",
+                "Night owl"
+              ].map(text => (
+                <Typist key={text} startDelay={500}>
+                  {text}
+                </Typist>
+              ))}
+            </TypistLoop>
+          </p>
+        </div>
+        <div className="heroImage">
+          <img
+            src="https://image.ibb.co/b6oS3b/15c_Lewis_Brownlie_Melb_that_Might_Have_Been_2016_Co_M_detail_21.jpg"
+            alt="Melbourne"
+          />
         </div>
       </div>
     );

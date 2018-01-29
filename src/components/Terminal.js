@@ -104,7 +104,8 @@ class Terminal extends Component {
               </p>
               <p>
                 <a className="link" href="https://github.com/Chy24/digital_pt">
-                  Projects Code <i class="fa fa-github" aria-hidden="true" />
+                  Projects Code{" "}
+                  <i className="fa fa-github" aria-hidden="true" />
                 </a>
               </p>
             </div>

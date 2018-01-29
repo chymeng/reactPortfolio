@@ -1,85 +1,96 @@
 .footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .contactList {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactList ul {
-	list-style-type: none;
-	padding-left: 0px;
-	display: flex;
-	flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contactList li {
-	display: inline-block;
-	font-family: 'Lato', sans-serif;
-	font-size: 0.8rem;
-	padding: 10px;
-	text-align: center;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  padding: 10px;
+  text-align: center;
 }
 
 .contactList li a {
-	text-decoration: none;
-	color: rgba(51, 51, 51, 0.2);
+  text-decoration: none;
+  color: rgba(51, 51, 51, 0.2);
 }
 
 .contactList li a:hover {
-	text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .githubIcon {
-	height: 35px;
-	width: auto;
-	padding: 5px;
+  height: 25px;
+  width: auto;
+  padding: 5px;
 }
 
 .linkedInIcon {
-	height: 35px;
-	width: auto;
-	padding: 5px;
+  height: 25px;
+  width: auto;
+  padding: 5px;
 }
 
 .handWaveIcon {
-	height: 35px;
-	width: auto;
-	padding: 5px;
+  height: 25px;
+  width: auto;
+  padding: 5px;
 }
 
 .blogIcon {
-	height: 35px;
-	width: auto;
-	padding: 5px;
+  height: 25px;
+  width: auto;
+  padding: 5px;
 }
 
 @media screen and (min-width: 480px) {
-	br {
-		display: none;
-	}
+  br {
+    display: none;
+  }
 
-	.contactList li {
-		font-size: 1rem;
-	}
+  .contactList li {
+    font-size: 1rem;
+  }
 
-	.githubIcon {
-		height: 40px;
-	}
+  .githubIcon {
+    height: 30px;
+  }
 
-	.linkedInIcon {
-		height: 40px;
-	}
+  .linkedInIcon {
+    height: 30px;
+  }
 
-	.handWaveIcon {
-		height: 40px;
-	}
+  .handWaveIcon {
+    height: 30px;
+  }
 
-	.blogIcon {
-		height: 40px;
-	}
+  .blogIcon {
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 736px) {
+}
+
+@media screen and (min-width: 980px) {
+  .contactHeading {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1280px) {
 }

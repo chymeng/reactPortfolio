@@ -1,93 +1,93 @@
 .aboutHeading {
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 1rem;
-	margin: 0px;
-	padding-left: 20px;
-	padding-bottom: 0px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0px;
+  padding-left: 20px;
+  padding-bottom: 0px;
 }
 
 .aboutHeading h1 {
-	margin-top: 30px;
-	margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .aboutImage {
-	text-align: center;
+  text-align: center;
 }
 
 .aboutImage img {
-	width: 95%;
-	height: 220px;
-	object-fit: cover;
-	object-position: top;
-	margin-bottom: 10px;
+  width: 95%;
+  height: 220px;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 10px;
 }
 
 .aboutContent {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 1rem;
-	width: 95%;
-	margin: 0 auto;
-	overflow: scroll;
-	height: 250px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  width: 95%;
+  margin: 0 auto;
+  overflow: scroll;
+  height: 250px;
 }
 
 @media screen and (min-width: 480px) {
-	.aboutImage img {
-		height: 300px;
-	}
+  .aboutImage img {
+    height: 300px;
+  }
 }
 
 @media screen and (min-width: 736px) {
 }
 
 @media screen and (min-width: 980px) {
-	.aboutHeading {
-		font-size: 1.2rem;
-	}
+  .aboutHeading {
+    font-size: 1.2rem;
+  }
 
-	.aboutContainer {
-		padding-top: 30px;
-		height: 62vh;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-	}
+  .aboutContainer {
+    padding-top: 30px;
+    height: 62vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 
-	.aboutImage {
-		width: 283px;
-		height: 100%;
-		padding-left: 80px;
-	}
+  .aboutImage {
+    padding-left: 80px;
+    width: 35%;
+    height: 100%;
+  }
 
-	.aboutImage img {
-		width: 100%;
-		height: 450px;
-		object-fit: cover;
-		border-radius: 8px;
-		margin-left: auto;
-		margin-right: auto;
-		display: block;
-	}
+  .aboutImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 
-	.aboutContent {
-		padding-left: 20px;
-		width: 50%;
-	}
+  .aboutContent {
+    padding-left: 20px;
+    width: 50%;
+  }
 
-	.aboutContent p {
-		font-size: 1.1rem;
-	}
+  .aboutContent p {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-	.aboutImage {
-		padding-left: 100px;
-	}
+  .aboutImage {
+    padding-left: 100px;
+  }
 
-	.aboutContent p {
-		font-size: 1.2rem;
-	}
+  .aboutContent p {
+    font-size: 1.1rem;
+  }
 }
