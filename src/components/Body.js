@@ -8,7 +8,7 @@ class Body extends Component {
       <div className="body">
         <div className="bodyDescription">
           <p>
-            My name is Chy. Junior Web Developer based in Melbourne, Australia.
+            My name is Chy. Junior Developer based in Melbourne, Australia.
             <TypistLoop interval={1000}>
               {[
                 "I like to code!",

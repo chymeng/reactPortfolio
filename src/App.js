@@ -7,6 +7,7 @@ import "../src/css/About.css";
 import "../src/css/Contact.css";
 import "../src/css/Projects.css";
 import "../src/css/Terminal.css";
+import "../src/css/Tanto.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -15,6 +16,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Terminal from "./components/Terminal";
+import Tanto from "./components/Tanto";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 class App extends Component {
@@ -28,6 +30,7 @@ class App extends Component {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/terminalproject" component={Terminal} />
+          <Route exact path="/tantomanagement" component={Tanto} />
           <Footer />
         </div>
       </Router>

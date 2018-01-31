@@ -52,7 +52,7 @@ class Projects extends Component {
 
           <li className="flex-item flex3">
             <div className="projectContainer">
-              <Link to="/twosidedmarket">
+              <Link to="/tantomanagement">
                 <div className="projectThumb">
                   <img
                     src="https://cdn.concreteplayground.com/content/uploads/2016/10/tanto-3.jpg"
