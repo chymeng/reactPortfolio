@@ -11,7 +11,7 @@ class Tanto extends Component {
           <div className="tantoBlock">
             <img
               src="https://image.ibb.co/fkKYW6/Adobe_Spark.jpg"
-              alt="Screenshot of terminal application"
+              alt="Screenshot of tanto management system"
             />
           </div>
           <div className="tantoDescription">
