@@ -1,23 +1,24 @@
-import React, { Component } from "react";
-import "../src/css/App.css";
-import "../src/css/Header.css";
-import "../src/css/Body.css";
-import "../src/css/Footer.css";
-import "../src/css/About.css";
-import "../src/css/Contact.css";
-import "../src/css/Projects.css";
-import "../src/css/Terminal.css";
-import "../src/css/Tanto.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./components/Header";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Terminal from "./components/Terminal";
-import Tanto from "./components/Tanto";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
+import React, { Component } from 'react'
+import '../src/css/App.css'
+import '../src/css/Header.css'
+import '../src/css/Body.css'
+import '../src/css/Footer.css'
+import '../src/css/About.css'
+import '../src/css/Contact.css'
+import '../src/css/Projects.css'
+import '../src/css/Terminal.css'
+import '../src/css/Tanto.css'
+import '../src/css/Cookbook.css'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Header from './components/Header'
+import Body from './components/Body'
+import Footer from './components/Footer'
+import About from './components/About'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Terminal from './components/Terminal'
+import Tanto from './components/Tanto'
+import Cookbook from './components/Cookbook'
 
 class App extends Component {
   render() {
@@ -31,11 +32,12 @@ class App extends Component {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/terminalproject" component={Terminal} />
           <Route exact path="/tantomanagement" component={Tanto} />
+          <Route exact path="/cookbook" component={Cookbook} />
           <Footer />
         </div>
       </Router>
-    );
+    )
   }
 }
 
-export default App;
+export default App

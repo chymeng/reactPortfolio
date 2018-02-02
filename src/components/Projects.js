@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Projects extends Component {
   render() {
@@ -71,10 +71,32 @@ class Projects extends Component {
               </Link>
             </div>
           </li>
+
+          <li className="flex-item flex4">
+            <div className="projectContainer">
+              <Link to="/cookbook">
+                <div className="projectThumb">
+                  <img
+                    src="https://image.ibb.co/md1LZR/Screen_Shot_2018_02_02_at_11_47_11_am.png"
+                    alt="My Cookbook preview"
+                  />
+                </div>
+                <div className="projectHeading">
+                  <h2>My Cookbook</h2>
+                </div>
+                <div className="projectDescription">
+                  <p>
+                    A cooking social media where users can share recipes and
+                    build a community
+                  </p>
+                </div>
+              </Link>
+            </div>
+          </li>
         </ul>
       </div>
-    );
+    )
   }
 }
 
-export default Projects;
+export default Projects
