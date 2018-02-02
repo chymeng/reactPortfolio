@@ -11,7 +11,7 @@
 .bodyDescription p {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   line-height: 1.2;
   letter-spacing: -1px;
   margin-top: 0px;
@@ -20,7 +20,7 @@
 
 .heroImage img {
   position: fixed;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   bottom: 0;
   right: 0;
   height: 30%;
