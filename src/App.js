@@ -10,6 +10,7 @@ import '../src/css/Terminal.css'
 import '../src/css/Tanto.css'
 import '../src/css/Cookbook.css'
 import '../src/css/Solemate.css'
+import '../src/css/Blog.css'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Body from './components/Body'
@@ -21,6 +22,7 @@ import Terminal from './components/Terminal'
 import Tanto from './components/Tanto'
 import Cookbook from './components/Cookbook'
 import Solemate from './components/Solemate'
+import Blog from './components/Blog'
 
 class App extends Component {
   render() {
@@ -36,6 +38,7 @@ class App extends Component {
           <Route exact path="/tantomanagement" component={Tanto} />
           <Route exact path="/cookbook" component={Cookbook} />
           <Route exact path="/solemate" component={Solemate} />
+          <Route exact path="/blog" component={Blog} />
           <Footer />
         </div>
       </Router>

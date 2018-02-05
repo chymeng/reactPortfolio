@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Footer extends Component {
   render() {
@@ -56,22 +57,22 @@ class Footer extends Component {
                 </a>
               </li>
               <li>
-                <a href="google.com">
+                <Link to="/blog">
                   <img
                     src="http://www.magiccityfamilylaw.com/wp-content/uploads/2017/06/Blog-2.png"
                     target="_blank"
                     className="blogIcon"
                     alt="Blog Icon"
-                  />{" "}
+                  />{' '}
                   <br />Blog
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Footer;
+export default Footer
