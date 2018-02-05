@@ -33,7 +33,7 @@ class Projects extends Component {
 
           <li className="flex-item flex2">
             <div className="projectContainer">
-              <Link to="/twosidedmarket">
+              <Link to="/solemate">
                 <div className="projectThumb">
                   <img
                     src="https://images.unsplash.com/photo-1463100099107-aa0980c362e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b7d1df3fbecb8923c40cd429b2add590&auto=format&fit=crop&w=1500&q=80"

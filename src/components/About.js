@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 class About extends Component {
   render() {
@@ -13,11 +13,30 @@ class About extends Component {
           </div>
           <div className="aboutContent">
             <p>
-              My name is Chy, former accountant looking to become a front-end
-              web developer. I’m currently studying at Coder Academy where I’m
-              learning skills such as HTML 5, CSS3, SASS/SCSS, Ruby, Ruby on
-              Rails, React, SQL, JavaScript, Express.js and many others. Check
-              out my resume and Linkedin to see my experiences.
+              My name is Chy, former accountant looking to become a Developer.
+              I’m currently studying at Coder Academy where I’m learning skills
+              such as HTML 5, CSS3, SASS/SCSS, Ruby, Ruby on Rails, React, SQL,
+              JavaScript, Express.js and many others. Check out my{' '}
+              <b className="aboutLink">
+                <a
+                  target="blank"
+                  rel="noopener noreferrer"
+                  href="https://docs.google.com/document/d/1c8Z2TrOlyta_JUkGm5dbFswwYH79kZIgkjLnrAc3ZH8/edit?usp=sharing"
+                >
+                  resume
+                </a>
+              </b>{' '}
+              and{' '}
+              <b className="aboutLink">
+                <a
+                  target="blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/chy-meng-6323b8a7/"
+                >
+                  LinkedIn
+                </a>
+              </b>{' '}
+              to see my experiences.
             </p>
             <p>
               I am enthusiastic and passionate about the challenges that Web Dev
@@ -28,8 +47,8 @@ class About extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default About;
+export default About

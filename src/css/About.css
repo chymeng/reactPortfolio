@@ -1,5 +1,5 @@
 .aboutHeading {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 1rem;
   margin: 0px;
@@ -25,13 +25,22 @@
 }
 
 .aboutContent {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 1rem;
   width: 95%;
   margin: 0 auto;
   overflow: scroll;
   height: 250px;
+}
+
+.aboutLink a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutLink a:hover {
+  text-decoration: line-through;
 }
 
 @media screen and (min-width: 480px) {

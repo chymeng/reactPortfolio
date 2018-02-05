@@ -9,7 +9,8 @@ import '../src/css/Projects.css'
 import '../src/css/Terminal.css'
 import '../src/css/Tanto.css'
 import '../src/css/Cookbook.css'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import '../src/css/Solemate.css'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Body from './components/Body'
 import Footer from './components/Footer'
@@ -19,6 +20,7 @@ import Contact from './components/Contact'
 import Terminal from './components/Terminal'
 import Tanto from './components/Tanto'
 import Cookbook from './components/Cookbook'
+import Solemate from './components/Solemate'
 
 class App extends Component {
   render() {
@@ -33,6 +35,7 @@ class App extends Component {
           <Route exact path="/terminalproject" component={Terminal} />
           <Route exact path="/tantomanagement" component={Tanto} />
           <Route exact path="/cookbook" component={Cookbook} />
+          <Route exact path="/solemate" component={Solemate} />
           <Footer />
         </div>
       </Router>

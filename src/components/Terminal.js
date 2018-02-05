@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 class Terminal extends Component {
   render() {
@@ -31,6 +31,7 @@ class Terminal extends Component {
                 className="link"
                 href="https://github.com/Chy24/digital_pt"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Projects Code <i className="fa fa-github" aria-hidden="true" />
               </a>
@@ -38,8 +39,8 @@ class Terminal extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Terminal;
+export default Terminal

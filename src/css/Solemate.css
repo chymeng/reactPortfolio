@@ -1,10 +1,10 @@
-.cookbookBlock {
+.solemateBlock {
   height: 250px;
   overflow: scroll;
   margin-bottom: 40px;
 }
 
-.cookbookHeading {
+.solemateHeading {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 1rem;
@@ -13,16 +13,16 @@
   padding-bottom: 0px;
 }
 
-.cookbookHeading h1 {
+.solemateHeading h1 {
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
-.cookbookBlock img {
+.solemateBlock img {
   width: 100%;
 }
 
-.cookbookDescription p {
+.solemateDescription p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 1rem;
@@ -31,43 +31,43 @@
   overflow: scroll;
 }
 
-.cookbookGit {
+.solemateGit {
   padding-top: 10px;
   text-align: center;
 }
 
-.cookbookGit a {
+.solemateGit a {
   text-decoration: none;
   color: black;
 }
 
-.cookbookGit a:hover {
+.solemateGit a:hover {
   text-decoration: line-through;
 }
 
 @media screen and (min-width: 480px) {
-  .cookbookBlock {
+  .solemateBlock {
     height: 300px;
   }
 }
 
 @media screen and (min-width: 736px) {
-  .cookbookBlock {
+  .solemateBlock {
     height: 350px;
   }
 }
 
 @media screen and (min-width: 980px) {
-  .cookbookContent {
+  .solemateContent {
     display: flex;
   }
 
-  .cookbookBlock {
+  .solemateBlock {
     width: 4000px;
     height: 580px;
   }
 
-  .cookbookDescription {
+  .solemateDescription {
     margin-top: 50px;
     padding-left: 30px;
     padding-right: 30px;

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 class Tanto extends Component {
   render() {
@@ -32,6 +32,7 @@ class Tanto extends Component {
                 className="link"
                 href="https://github.com/chymeng/major-project-term3"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Projects Code <i className="fa fa-github" aria-hidden="true" />
               </a>
@@ -39,8 +40,8 @@ class Tanto extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Tanto;
+export default Tanto
