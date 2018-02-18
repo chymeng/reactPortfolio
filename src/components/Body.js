@@ -7,7 +7,7 @@ class Body extends Component {
     return (
       <div className="body">
         <div className="bodyDescription">
-          <p>
+          <h2>
             My name is Chy. Junior Developer based in Melbourne, Australia.
             <TypistLoop interval={1000}>
               {[
@@ -21,7 +21,7 @@ class Body extends Component {
                 </Typist>
               ))}
             </TypistLoop>
-          </p>
+          </h2>
         </div>
         <div className="heroImage">
           <img
