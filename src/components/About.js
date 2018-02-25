@@ -13,10 +13,45 @@ class About extends Component {
           </div>
           <div className="aboutContent">
             <p>
-              My name is Chy, former accountant looking to become a Developer.
-              I’m currently studying at Coder Academy where I’m learning skills
-              such as HTML 5, CSS3, SASS/SCSS, Ruby, Ruby on Rails, React, SQL,
-              JavaScript, Express.js and many others. Check out my{' '}
+              My name is Chy, a former accountant aspiring to become a
+              Developer. I have just completed an intensive web development
+              bootcamp at Coder Academy and can't wait to join the tech industry
+              where I can further expand my knowledge. The current technologies
+              that I have experience in include
+            </p>
+            <div className="aboutTech">
+              <div className="aboutTechFront">
+                <h3>Front-end Technologies</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>SASS/SCSS</li>
+                  <li>Bootstrap</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>UI/UX</li>
+                </ul>
+              </div>
+              <div className="aboutTechEnd">
+                <h3>Back-end Technologies</h3>
+                <ul>
+                  <li>Ruby</li>
+                  <li>Ruby on Rails</li>
+                  <li>SQL</li>
+                  <li>Express.js</li>
+                  <li>MongoDB</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              I am enthusiastic and passionate about the challenges that Web Dev
+              provides and the excitement that comes from learning something new
+              everyday. I like writing elegant and efficient code, care about
+              user experience and the little details that make the difference.
+            </p>
+            <p>
+              You can download my{' '}
               <b className="aboutLink">
                 <a
                   target="blank"
@@ -26,7 +61,7 @@ class About extends Component {
                   resume
                 </a>
               </b>{' '}
-              and{' '}
+              or check out my{' '}
               <b className="aboutLink">
                 <a
                   target="blank"
@@ -36,13 +71,7 @@ class About extends Component {
                   LinkedIn
                 </a>
               </b>{' '}
-              to see my experiences.
-            </p>
-            <p>
-              I am enthusiastic and passionate about the challenges that Web Dev
-              provides and the excitement that comes from learning something new
-              everyday. I like writing elegant and efficient code, care about
-              user experience and the little details that make the difference.
+              in here.{' '}
             </p>
           </div>
         </div>

@@ -1,17 +1,6 @@
 import React, { Component } from 'react'
-import '../src/css/App.css'
-import '../src/css/Header.css'
-import '../src/css/Body.css'
-import '../src/css/Footer.css'
-import '../src/css/About.css'
-import '../src/css/Contact.css'
-import '../src/css/Projects.css'
-import '../src/css/Terminal.css'
-import '../src/css/Tanto.css'
-import '../src/css/Cookbook.css'
-import '../src/css/Solemate.css'
-import '../src/css/Blog.css'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+import '../src/css/App.css'
 import Header from './components/Header'
 import Body from './components/Body'
 import Footer from './components/Footer'
@@ -23,12 +12,14 @@ import Tanto from './components/Tanto'
 import Cookbook from './components/Cookbook'
 import Solemate from './components/Solemate'
 import Blog from './components/Blog'
+import Favicon from 'react-favicon'
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div className="App">
+          <Favicon url="https://image.ibb.co/eAxkhc/favicon_32x32.png" />
           <Header />
           <Route exact path="/" component={Body} />
           <Route exact path="/about" component={About} />

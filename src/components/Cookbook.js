@@ -31,7 +31,7 @@ class Cookbook extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Projects Code <i className="fa fa-github" aria-hidden="true" />
+                Projects Code <i className="fab fa-github" aria-hidden="true" />
               </a>
             </p>
           </div>

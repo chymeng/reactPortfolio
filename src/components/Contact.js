@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 class Contact extends Component {
   render() {
@@ -16,7 +16,7 @@ class Contact extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-facebook" aria-hidden="true" /> Facebook
+                <i className="fab fa-facebook-f" aria-hidden="true" /> Facebook
               </a>
             </li>
             <li>
@@ -25,7 +25,7 @@ class Contact extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-linkedin" aria-hidden="true" /> LinkedIn
+                <i className="fab fa-linkedin-in" aria-hidden="true" /> LinkedIn
               </a>
             </li>
             <li>
@@ -40,8 +40,8 @@ class Contact extends Component {
           </ul>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Contact;
+export default Contact

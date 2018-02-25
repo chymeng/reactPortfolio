@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-favicon": "^0.0.13",
     "react-fontawesome": "^1.6.1",
     "react-metro": "^1.8.0",
     "react-router-dom": "^4.2.2",
