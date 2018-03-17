@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Favicon from 'react-favicon'
 import '../src/css/App.css'
 import Header from './components/Header'
 import Body from './components/Body'
@@ -12,7 +13,6 @@ import Tanto from './components/Tanto'
 import Cookbook from './components/Cookbook'
 import Solemate from './components/Solemate'
 import Blog from './components/Blog'
-import Favicon from 'react-favicon'
 
 class App extends Component {
   render() {

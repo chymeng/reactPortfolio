@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import solemate from '../images/solemate.jpeg'
+import terminal from '../images/terminal.png'
+import tanto from '../images/tanto.jpg'
+import cookbook from '../images/cookbook.png'
 
 class Projects extends Component {
   render() {
@@ -14,10 +18,7 @@ class Projects extends Component {
             <div className="projectContainer">
               <Link to="/terminalproject">
                 <div className="projectThumb">
-                  <img
-                    src="https://image.ibb.co/nMWhzw/project.png"
-                    alt="Terminal Project Preview"
-                  />
+                  <img src={terminal} alt="Terminal Project Preview" />
                 </div>
                 <div className="projectHeading">
                   <h2>Terminal application</h2>
@@ -35,10 +36,7 @@ class Projects extends Component {
             <div className="projectContainer">
               <Link to="/solemate">
                 <div className="projectThumb">
-                  <img
-                    src="https://images.unsplash.com/photo-1463100099107-aa0980c362e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b7d1df3fbecb8923c40cd429b2add590&auto=format&fit=crop&w=1500&q=80"
-                    alt="Two sided marketplace Preview"
-                  />
+                  <img src={solemate} alt="Two sided marketplace Preview" />
                 </div>
                 <div className="projectHeading">
                   <h2>Solemate</h2>
@@ -54,10 +52,7 @@ class Projects extends Component {
             <div className="projectContainer">
               <Link to="/tantomanagement">
                 <div className="projectThumb">
-                  <img
-                    src="https://cdn.concreteplayground.com/content/uploads/2016/10/tanto-3.jpg"
-                    alt="Tanto management system Preview"
-                  />
+                  <img src={tanto} alt="Tanto management system Preview" />
                 </div>
                 <div className="projectHeading">
                   <h2>Tanto Management System</h2>
@@ -76,10 +71,7 @@ class Projects extends Component {
             <div className="projectContainer">
               <Link to="/cookbook">
                 <div className="projectThumb">
-                  <img
-                    src="https://image.ibb.co/md1LZR/Screen_Shot_2018_02_02_at_11_47_11_am.png"
-                    alt="My Cookbook preview"
-                  />
+                  <img src={cookbook} alt="My Cookbook preview" />
                 </div>
                 <div className="projectHeading">
                   <h2>My Cookbook</h2>
