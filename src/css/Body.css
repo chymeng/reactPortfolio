@@ -68,7 +68,7 @@
 
 @media screen and (min-width: 980px) {
   .bodyDescription {
-    margin: 0px;
+    margin: 20px 0px;
   }
 
   .bodyDescription h2 {
@@ -81,11 +81,15 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .bodyDescription {
+    margin: 30px 0px;
+  }
+
   .bodyDescription h2 {
     font-size: 4.8rem;
   }
 
   .heroImage img {
-    height: 440px;
+    height: 400px;
   }
 }
