@@ -9,3 +9,9 @@
 @import './Cookbook.css';
 @import './Solemate.css';
 @import './Blog.css';
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}

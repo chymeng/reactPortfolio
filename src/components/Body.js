@@ -8,8 +8,9 @@ class Body extends Component {
     return (
       <div className="body">
         <div className="bodyDescription">
+          <h2>My name is Chy.</h2>
+          <h2>Junior Developer based in Melbourne, Australia.</h2>
           <h2>
-            My name is Chy. Junior Developer based in Melbourne, Australia.
             <TypistLoop interval={1000}>
               {[
                 'I like to code!',
