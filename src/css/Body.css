@@ -43,7 +43,7 @@
   }
 }
 
-@media screen and (min-width: 736px) {
+@media screen and (min-width: 768px) {
   .bodyDescription {
     margin: 40px 0px;
   }
@@ -60,7 +60,8 @@
 
   .heroImage img {
     height: 330px;
-    width: auto;
+    object-fit: scale-down;
+    width: 100%;
     left: initial;
     right: 0;
   }
@@ -91,5 +92,19 @@
 
   .heroImage img {
     height: 400px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .bodyDescription {
+    margin: 30px 0px;
+  }
+
+  .bodyDescription h2 {
+    font-size: 10rem;
+  }
+
+  .heroImage img {
+    height: 700px;
   }
 }
