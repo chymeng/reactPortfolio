@@ -26,7 +26,7 @@ class Footer extends Component {
               </li>
               <li>
                 <img
-                  src="https://media-exp2.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAANyAAAAJGRlZTNlZDQwLTk4YTItNDA1MS04MzBjLWJmNGQ5M2RmZGUxYw.png"
+                  src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png"
                   target="_blank"
                   className="linkedInIcon"
                   alt="LinkedIn Icon"

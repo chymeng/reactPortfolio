@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "animejs": "^2.2.0",
+    "popmotion-react": "^2.1.1",
     "react": "^16.3.0",
+    "react-anime": "^2.1.0",
     "react-dom": "^16.2.0",
     "react-favicon": "^0.0.13",
     "react-fontawesome": "^1.6.1",

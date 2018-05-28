@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Favicon from 'react-favicon'
+import favicon from './images/favicon.png'
 import '../src/css/App.css'
 import Header from './components/Header'
 import Body from './components/Body'
@@ -19,7 +20,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Favicon url="https://image.ibb.co/eAxkhc/favicon_32x32.png" />
+          <Favicon src={favicon} />
           <Header />
           <Route exact path="/" component={Body} />
           <Route exact path="/about" component={About} />

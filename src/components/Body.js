@@ -2,57 +2,46 @@ import React, { Component } from 'react'
 import Typist from 'react-typist'
 import TypistLoop from 'react-typist-loop'
 import melbourne from '../images/melbourne.jpg'
-import { Transition } from 'react-transition-group'
-
-const duration = 300
-
-const defaultStyle = {
-  transition: `opacity ${duration}ms ease-in-out`,
-  opacity: 0
-}
-
-const transitionStyles = {
-  entering: { opacity: 0 },
-  entered: { opacity: 1 }
-}
-
-const Fade = ({ in: inProp, sentence: sentence }) => (
-  <Transition in={inProp} timeout={duration}>
-    {state => (
-      <div
-        style={{
-          ...defaultStyle,
-          ...transitionStyles[state]
-        }}
-      >
-        <h2>{sentence}</h2>
-      </div>
-    )}
-  </Transition>
-)
+import { CSSTransition } from 'react-transition-group'
 
 class Body extends Component {
-  state = { show: false }
-
-  handleToggle() {
-    this.setState(({ show }) => ({
-      show: !show
-    }))
+  state = {
+    p1: false,
+    p2: false,
+    p3: false,
+    p4: false,
+    i1: false
   }
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ p1: true })
+    }, 2000),
+      setTimeout(() => {
+        this.setState({ p2: true })
+      }, 2500),
+      setTimeout(() => {
+        this.setState({ p3: true })
+      }, 3000),
+      setTimeout(() => {
+        this.setState({ p4: true })
+      }, 3500),
+      setTimeout(() => {
+        this.setState({ i1: true })
+      }, 2000)
+  }
+
   render() {
-    const { show } = this.state
+    const { p1, p2, p3, p4, i1 } = this.state
     return (
       <div className="body">
         <div className="bodyDescription">
-          <div>
-            <button onClick={() => this.handleToggle()}>Click to toggle</button>
-            <div>
-              <Fade in={!!show} sentence="test" />
-            </div>
-          </div>
-          <h2>My name is Chy.</h2>
-          {/* <h2>Junior Developer based in Melbourne, Australia.</h2> */}
-          {/* <h2>
+          <h2 className={this.state.p1 ? 'slideDown' : null}>Hi</h2>
+          <h2 className={this.state.p2 ? 'slideDown' : null}>My name is Chy</h2>
+          <h2 className={this.state.p3 ? 'slideDown' : null}>
+            Junior Developer based in Melbourne, Australia.
+          </h2>
+          <h2 className={this.state.p4 ? 'slideDown' : null}>
             <TypistLoop interval={1000}>
               {[
                 'I like to code!',
@@ -65,11 +54,15 @@ class Body extends Component {
                 </Typist>
               ))}
             </TypistLoop>
-          </h2> */}
+          </h2>
         </div>
-        {/* <div className="heroImage">
-          <img src={melbourne} alt="Melbourne" />
-        </div> */}
+        <div className="heroImage">
+          <img
+            src={melbourne}
+            alt="Melbourne"
+            className={this.state.i1 ? 'slideDown' : null}
+          />
+        </div>
       </div>
     )
   }

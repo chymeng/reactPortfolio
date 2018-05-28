@@ -9,6 +9,7 @@
 @import './Cookbook.css';
 @import './Solemate.css';
 @import './Blog.css';
+@import './Animations.css';
 
 body {
   height: 100vh;
