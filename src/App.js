@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import Favicon from 'react-favicon'
 import favicon from './images/favicon.png'
 import '../src/css/App.css'
@@ -18,10 +18,10 @@ import Blog from './components/Blog'
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-          <Favicon src={favicon} />
-          <Header />
+      <div className="App">
+        <Favicon src={favicon} />
+        <Header />
+        <Switch>
           <Route exact path="/" component={Body} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
@@ -31,9 +31,9 @@ class App extends Component {
           <Route exact path="/cookbook" component={Cookbook} />
           <Route exact path="/solemate" component={Solemate} />
           <Route exact path="/blog" component={Blog} />
-          <Footer />
-        </div>
-      </Router>
+        </Switch>
+        <Footer />
+      </div>
     )
   }
 }
