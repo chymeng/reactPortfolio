@@ -1,29 +1,22 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import Svg from '../components/Svg'
+import { contact } from '../constants/Text'
 
-class Header extends Component {
-	render() {
-		return (
-			<div className="header">
-				<div className="navOptions">
-					<ul>
-						<li>
-							<Link to="/">Home</Link>
-						</li>
-						<li>
-							<Link to="/about">About me</Link>
-						</li>
-						<li>
-							<Link to="/projects">Projects</Link>
-						</li>
-						<li>
-							<Link to="/contact">Contact Me</Link>
-						</li>
-					</ul>
-				</div>
-			</div>
-		)
-	}
-}
+const Header = () => (
+  <div className="head">
+    <div className="line" />
+    <h1>
+      I’m <span>Chy Meng</span>, a junior developer currently living and working
+      in Melbourne.
+    </h1>
+    <div className="line" />
+
+    <div className="contact-me">
+      {contact.map(x => {
+        return <Svg icon={x.icon} a={x.a} />
+      })}
+    </div>
+  </div>
+)
 
 export default Header

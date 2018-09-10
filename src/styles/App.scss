@@ -1,0 +1,16 @@
+// contants
+@import './constants/breakpoints';
+@import './constants/colors';
+@import './constants/fonts';
+
+// components
+@import './components/header';
+@import './components/list';
+
+body {
+  font-family: $primary-font;
+  font-weight: $light;
+  background-color: $light-black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

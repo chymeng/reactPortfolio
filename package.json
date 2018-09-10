@@ -16,6 +16,7 @@
     "react-router-dom": "^4.2.2",
     "react-router-page-transition": "^3.0.2",
     "react-scripts": "1.1.5",
+    "react-svgmt": "^1.1.6",
     "react-transition-group": "^2.3.1",
     "react-typist": "^2.0.4",
     "react-typist-loop": "^0.0.3",
